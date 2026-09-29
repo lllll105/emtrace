@@ -1,0 +1,6 @@
+method,n,event_pos_affect_pos,event_pos_affect_neg,event_neg_affect_pos,event_neg_affect_neg
+fact-only,1103,790,0,107,206
+emotion-only,1103,49,0,267,787
+concat-sum,1103,796,0,113,194
+similarity-product,1103,795,0,111,197
+two-stage,1103,591,199,112,201

@@ -1,0 +1,14 @@
+{
+  "changed_result_files": [
+    "results/summary/p0_2_bootstrap/README.md",
+    "results/summary/train_only_prototype_sensitivity/README.md",
+    "results/summary/train_only_prototype_sensitivity/train_only_prototypes/manifest.json",
+    "results/summary/dataset_statistics/memory_bank_statistics.json"
+  ],
+  "total_files": 130,
+  "total_mb": 2.26,
+  "files_over_5mb": [],
+  "remaining_private_paths": [],
+  "possible_secrets": [],
+  "status": "ready_for_manual_data_and_license_review"
+}

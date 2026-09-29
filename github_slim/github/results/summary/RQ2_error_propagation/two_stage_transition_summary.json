@@ -1,0 +1,8 @@
+{
+  "n": 1103,
+  "stage1_correct": 897,
+  "stage1_wrong": 206,
+  "stage2_correct": 703,
+  "correction_rate_given_stage1_wrong": 0.06310679611650485,
+  "corruption_rate_given_stage1_correct": 0.23076923076923078
+}

@@ -1,0 +1,49 @@
+{
+  "memory_bank": "./use/build/multilayer_11class_trainplus_test_memory/qwen_multilayer_memory_bank_regenerated_classified_6927.pt",
+  "total_memories": 8030,
+  "train_memories": 6927,
+  "test_memories": 1103,
+  "memory_source_counts": {
+    "train_successful_steering": 6927,
+    "test_memory_key_only": 1103
+  },
+  "labels": [
+    "admiration",
+    "amusement",
+    "curiosity",
+    "joy",
+    "confusion",
+    "sadness",
+    "disappointment",
+    "surprise",
+    "excitement",
+    "desire",
+    "embarrassment"
+  ],
+  "manifest": {
+    "labels": [
+      "admiration",
+      "amusement",
+      "curiosity",
+      "joy",
+      "confusion",
+      "sadness",
+      "disappointment",
+      "surprise",
+      "excitement",
+      "desire",
+      "embarrassment"
+    ],
+    "num_rows": 8706,
+    "train_successful_memory_rows": 7603,
+    "test_memory_key_rows": 1103,
+    "key_method": "concat(L2-normalized fact embedding, L2-normalized emotion cue embedding)",
+    "value_status": "not constructed; no injection vector is present in this file",
+    "source_key_artifact": "./use/build/multilayer_11class_trainplus_test_memory/qwen_multilayer_memory_keys.pt",
+    "num_source_train_records": 7603,
+    "num_accepted_train_records": 6927,
+    "num_excluded_retry_pending_train_records": 676,
+    "num_test_records_retained": 1103,
+    "old_emotional_descriptions_reused": false
+  }
+}

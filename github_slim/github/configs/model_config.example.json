@@ -1,0 +1,14 @@
+{
+  "project_root": ".",
+  "qwen_model": "Qwen/Qwen2.5-7B-Instruct",
+  "emotion_model": "cirimus/modernbert-base-go-emotions",
+  "nli_model": "Xenova/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+  "memory_bank": "data/memory_bank.jsonl",
+  "test_queries": "data/test_queries.jsonl",
+  "generation": {
+    "dtype": "float16",
+    "do_sample": false,
+    "max_new_tokens": 96,
+    "use_cache": true
+  }
+}

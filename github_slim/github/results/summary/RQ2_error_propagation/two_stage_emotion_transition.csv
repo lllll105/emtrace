@@ -1,0 +1,5 @@
+transition,count,rate_all
+stage1_correct_stage2_correct,690,0.6255666364460563
+stage1_correct_stage2_wrong,207,0.18766999093381687
+stage1_wrong_stage2_correct,13,0.011786038077969175
+stage1_wrong_stage2_wrong,193,0.17497733454215775

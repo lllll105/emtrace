@@ -1,0 +1,31 @@
+{
+  "memory_count": 8030,
+  "train_memory_count": 6927,
+  "test_query_count": 1103,
+  "emotion_classes": 11,
+  "retrieval_methods": [
+    "fact-only",
+    "emotion-only",
+    "concat-sum",
+    "similarity-product",
+    "two-stage"
+  ],
+  "generation_conditions": [
+    "fact-prompt-only",
+    "memory-retrieved-emotion-label",
+    "memory-oracle-emotion-label",
+    "normal-multilayer-steering",
+    "oracle-multilayer-steering",
+    "normal-npti",
+    "oracle-npti"
+  ],
+  "oracle_event_methods": [
+    "fact-only",
+    "emotion-only",
+    "concat-sum",
+    "similarity-product",
+    "two-stage",
+    "full-oracle"
+  ],
+  "metadata_correction": "The original Full-Oracle NPTI worker overwrote methods with an empty list; actual methods are recorded here."
+}

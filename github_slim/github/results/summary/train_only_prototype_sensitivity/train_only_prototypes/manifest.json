@@ -1,0 +1,38 @@
+{
+  "stage": 2,
+  "name": "emotion_multicenter_geometric_to_injection_train_only_sensitivity",
+  "retrieval": "class score is maximum cosine over that class's prototypes",
+  "labels": [
+    "admiration",
+    "amusement",
+    "curiosity",
+    "joy",
+    "confusion",
+    "sadness",
+    "disappointment",
+    "surprise",
+    "excitement",
+    "desire",
+    "embarrassment"
+  ],
+  "class_count": 11,
+  "prototype_count": 22,
+  "prototypes_per_class": 2,
+  "key_shape": [
+    22,
+    768
+  ],
+  "key_construction": "spherical k-means partitions followed by per-cluster Euclidean geometric median and L2 normalization",
+  "member_pool": "train_successful_steering only (6,927 Stage-1 rows)",
+  "member_source_counts": {
+    "train_successful_steering": 6927
+  },
+  "test_data_used_for_prototype_keys": false,
+  "value_construction": "copied unchanged from validated full-memory m=2 bank; unused in this label-only sensitivity analysis",
+  "test_data_used_for_values": false,
+  "seed": 20260922,
+  "max_kmeans_iterations": 100,
+  "max_weiszfeld_iterations": 1000,
+  "tolerance": 1e-07,
+  "reference_full_stage2_bank": "./use_2rag/build/stage2_emotion_multicenter_geometric_m2/stage2_emotion_multicenter_to_injection_bank.pt"
+}
